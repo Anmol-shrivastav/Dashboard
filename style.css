@@ -134,7 +134,7 @@ fa-caret-down{
 .right-side-container{
     width: 27%;
     height: fit-content;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     box-sizing: border-box;
     margin-left: 4%;
 }
@@ -143,12 +143,15 @@ fa-caret-down{
     height: fit-content;
     border: 1px solid black;
     box-sizing: border-box;
+    background-color: white;
 }
 .shortcut-container{
+    margin-top: 20px;
     width: 100%;
     height: fit-content;
     border: 1px solid black;
     box-sizing: border-box;
+    background-color: white;
 }
 .activities-container-header{
     width: 100%;
@@ -183,4 +186,81 @@ fa-caret-down{
     .icon-box{
         padding: 0;
     }
+}.activity-containt li{
+    list-style-type: none;
+    margin-top: 40px;
+}
+.activity-containt .active{
+    background-color: rgb(94, 82, 95);
+    color: white;
+    font-size: 25px;
+    float: left;
+    margin-top: 4px;
+}
+.prduction{
+    margin-left: 20px;
+
+}
+.production-lebal{
+    background-color: rgba(207, 200, 200, 0.856);
+    float: left;
+    margin-left: 10px;
+    width: 70px;
+    padding-left: 5px;
+    font-size: small;
+}
+.abc{
+    float: left;
+}
+.test-lebal {
+    background-color: black;
+    color: white;
+    float: left;
+    padding-left: 5px;
+    font-size: small;
+    margin-left: 10px;
+    width: 30px;
+}
+.version {
+    float: left;
+}
+.number {
+    background-color: wheat ;
+    float: left;
+    margin-left: 10px;
+    width: 20px;
+    border-radius: 25px;
+    padding-left: 8px;
+}
+.text {
+    float: left;
+    margin-left: 10px;
+}
+.time-spam{
+    float: right;
+    margin-right: 30px;
+}
+.staging-lebal{
+    background-color: yellow;
+    float: left;
+    margin-left: 10px;
+    width: 60px;
+    padding-left: 5px;
+    padding-right: 5px;;
+    font-size: small;
+}
+.qa-lebal{
+    background-color: white;
+    float: left;
+    margin-left: 10px;
+    width: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: small;
+}
+.product-name{
+    float: right;
+}
+.productNumber{
+    float: right;
 }
