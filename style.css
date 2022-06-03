@@ -129,7 +129,7 @@ fa-caret-down{
     background-color: white;
 }
 .activities-container:nth-child(even){
-    background-color: rgba(207, 200, 200, 0.856)
+    background-color: rgba(207, 200, 200, 0.856);
 }
 .right-side-container{
     width: 27%;
