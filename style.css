@@ -49,7 +49,7 @@ body{
 }
 .content-container{
     width: 95%;
-    height: 100vh;
+    min-height: 100vh;
     background-color: rgba(231, 227, 227, 0.856);
     box-sizing: border-box;
 }
@@ -89,6 +89,82 @@ body{
 fa-caret-down{
     margin: 0;
 }
+
+.dashboard-container{
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.header-container{
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 10px 40px;
+}
+.dashboard-header-title-1{
+    color: rgb(255, 0, 85);
+    margin-bottom: 4px;
+}
+.dashboard-header-title-2{
+    margin-top: 0;
+    font-size: 25px;
+}
+.dashboard-parent-container{
+    width: 100%;
+    height: fit-content;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    padding: 10px 40px;
+}
+.activities-container{
+    width: 70%;
+    height: fit-content;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.activities-container:nth-child(odd){
+    background-color: white;
+}
+.activities-container:nth-child(even){
+    background-color: rgba(207, 200, 200, 0.856)
+}
+.right-side-container{
+    width: 27%;
+    height: fit-content;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-left: 4%;
+}
+.product-container{
+    width: 100%;
+    height: fit-content;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.shortcut-container{
+    width: 100%;
+    height: fit-content;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.activities-container-header{
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    padding: 10px 15px;
+}
+.activities-container-header-title{
+    margin: 0;
+    font-size: 21px;
+    font-weight: 700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
 
 @media screen and (max-width : 915px){
     .title{
